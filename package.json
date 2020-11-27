@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "browser-sync start --server 'app' --port 3000 --watch --files 'app' --directory --serveStatic '.' --no-ui"
+  },
+  "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.2.0",
+    "@tailwindcss/cli": "^0.1.2",
+    "@tailwindcss/forms": "^0.2.1",
+    "@tailwindcss/typography": "^0.3.1",
+    "browser-sync": "^2.26.13",
+    "tailwindcss": "^2.0.1"
+  }
+}
